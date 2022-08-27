@@ -3,14 +3,14 @@
 Add slash commands through a web interface with ease.
 
 ## Features
-❌ Login
-❌ Documentation Page
+❌ Login<br/>
+❌ Documentation Page<br/>
 ❌ Startup Guides
 
 ## Installation 
 
-Clone this repository 
-Install dependencies (`npm install`)
+Clone this repository <br/>
+Install dependencies (`npm install`) <br/>
 Run project (`npm run start`)
 
 😶 hihihi
