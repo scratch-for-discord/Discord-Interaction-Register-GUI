@@ -1,6 +1,6 @@
 import './Navbar.css';
 import logo from '../../assets/logo.png'
-import { BiLogInCircle} from 'react-icons/bi';
+import { BiLogInCircle } from 'react-icons/bi';
 
 
 
@@ -21,13 +21,13 @@ export const Navbar = () => {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-lg lg:flex-grow">
           <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white transition duration-150 fill hover:text-orange hover:border-transparent hover:-translate-y-1 mr-4 ">
-            Main Site
+            Home
           </a>
           <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white transition duration-150 fill  hover:text-orange hover:border-transparent hover:-translate-y-1 mr-4">
-            Guides
+           Main Site
           </a>
           <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white transition duration-150 fill hover:text-orange hover:border-transparent hover:-translate-y-1">
-            Dashboard
+            Guides
           </a>
           
         </div>
@@ -36,6 +36,8 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+
+    
    
 
 
