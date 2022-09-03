@@ -4,10 +4,11 @@ import { AiOutlineSafety } from 'react-icons/ai';
 import { MdOutlineContactSupport } from 'react-icons/md';
 
 
+
 export const About = () => {
     return (
 
-        <section className="h-auto mt-24 mb-10 bg-notblack">
+        <section className="h-auto mt-24  bg-notblack">
 
             <div className="px-2">
                 <div className="flex items-center -mx-2 ">

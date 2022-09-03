@@ -8,10 +8,10 @@ import { BiLogInCircle } from 'react-icons/bi';
 export const Navbar = () => {
     return (
       
-      <nav className="flex items-center justify-between flex-wrap bg-transparent p-6 font-mono bg-notblack ">
-      <div className="flex items-center flex-shrink-0 text-white mr-16">
+      <nav className="flex items-center justify-between flex-wrap bg-transparent p-4 font-mono bg-notblack ">
+      <div className="flex items-center flex-shrink-0 text-white mr-10">
         <img src={logo} className="w-20" alt=" "/>
-        <span className="font-semibold text-2xl tracking-tight">Interaction GUI</span>
+        <span className="font-extrabold text-2xl uppercase tracking-tight">Interaction GUI</span>
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-white border-orange hover:text-white hover:border-white">
@@ -37,7 +37,7 @@ export const Navbar = () => {
       </div>
     </nav>
 
-    
+
    
 
 

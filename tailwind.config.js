@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: { 
+    fontFamily: {
+     'unisans' : ["logofont",],
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',

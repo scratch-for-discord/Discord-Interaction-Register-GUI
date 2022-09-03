@@ -6,3 +6,10 @@ body {
   background-color: #1e2124;
   
 }
+
+@layer base {
+  @font-face {
+      font-family: "logofont";
+      src: url('././assets/logofont.otf') format('otf');
+  }
+}
