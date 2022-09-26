@@ -1,19 +1,11 @@
 import './Login.css';
+import Navbar from '../Navbar/Navbar';
 
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
-}
-
-const user = {
-  firstName: 'Harper',
-  lastName: 'Perez'
+const Element = () => {
+  return <>
+    <Navbar needLogin={false} />
+  </>
 };
 
-const element = (
-  <h1>
-    Hello, {formatName(user)}!
-  </h1>
-);
 
-
-export default element;
+export default Element;

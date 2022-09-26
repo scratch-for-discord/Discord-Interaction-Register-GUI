@@ -31,7 +31,7 @@ export const About = () => {
                                 <div className="text-white pl-4">
                                     <h2 className="font-bold text-xl pb-4 pt-2 text-left">Safety is on us!</h2>
 
-                                    <p className="text-base">Your data is safe with us, it being stored in our database.</p>
+                                    <p className="text-base">Your data is safe with us. We do not store it in any form of database of even your local storage.</p>
                                 </div>
                             </div>
                         </div>

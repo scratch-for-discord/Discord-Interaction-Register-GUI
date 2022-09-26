@@ -1,11 +1,11 @@
 import './Navbar.css';
 import logo from '../../assets/logo.png'
 import { BiLogInCircle } from 'react-icons/bi';
+import { Link } from 'react-router-dom'
 
 
 
-
-export const Navbar = () => {
+export const Navbar = ({ needLogin }) => {
     return (
       
       <nav className="flex items-center justify-between flex-wrap bg-transparent p-4 font-mono bg-notblack ">
@@ -31,9 +31,16 @@ export const Navbar = () => {
           </a>
           
         </div>
-        <div>
-        <a href="#" className="flex items-center text-center m-auto text-lg px-4 py-2 leading-loose border rounded text-white border-white transition duration-150 fill hover:bg-orange mt-4 lg:mt-0 hover:border-transparent hover:-translate-y-1"><BiLogInCircle className="w-6 h-6"/> Login</a>
-        </div>
+        {
+          needLogin ? 
+            <div>
+              <Link to={'/login'}>
+                <p className="flex items-center text-center m-auto text-lg px-4 py-2 leading-loose border rounded text-white border-white transition duration-150 fill hover:bg-orange mt-4 lg:mt-0 hover:border-transparent hover:-translate-y-1"><BiLogInCircle className="w-6 h-6"/> Login</p>
+              </Link>
+            </div>
+            :
+            <></>  
+        }
       </div>
     </nav>
 
